@@ -1,0 +1,6 @@
+<h1>signup</h1>
+
+<form action="/signup" method="post">
+  {% comment %} csrf {% endcomment %} {% csrf_token %} {{form.as_p}}
+  <button type="submit">Signup</button>
+</form>
